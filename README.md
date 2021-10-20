@@ -1,2 +1,2 @@
 # POOPratica
-Repositorio destinado a criação de projetiso C# e aplicação dos princípios SOLID e Design Patterns
+Repositorio destinado a criação de projetos C# e aplicação dos princípios SOLID e Design Patterns😊
