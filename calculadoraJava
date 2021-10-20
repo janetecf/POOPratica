@@ -1,0 +1,41 @@
+package Java;
+
+import java.util.Scanner;
+public class HelloWorld {
+    public static void main(String[] args) {
+    Scanner in = new Scanner (System.in);
+
+        System.out.println("digite o nr. 1 para SOMA");
+        System.out.println("digite o nr. 2 para SUBTRACAO");
+        System.out.println("digite o nr. 3 para MULTIPLICACAO");
+        System.out.println("digite o nr. 4 para DIVISAO");
+
+        int i = in.nextInt();
+        System.out.println("Digite o 1º número");
+        double num1 = in.nextDouble();
+
+        System.out.println("Digite o 2º número");
+        double num2 = in.nextDouble();
+
+        if(i == 1){
+            System.out.println(num1 + num2);
+        } else {
+            if (i == 2) {
+                System.out.println(num1 - num2);
+            } else {
+                if (i == 3) {
+                    System.out.println(num1 * num2);
+                } else {
+                    if (i == 4) {
+                        System.out.println(num1 / num2);
+                    } else {
+                        System.out.println("o número digitado é inválido");
+                    }
+                }
+            }
+
+        }
+
+    }
+
+}
